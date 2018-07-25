@@ -1,14 +1,17 @@
 In case anyone's looking for a simpler solution that doesn't require compiling it yourself:
 
-download xgboost whl file from here (make sure to match your python version and system architecture, e.g. "xgboost-0.6-cp35-cp35m-win_amd64.whl" for python 3.5 on 64-bit machine)
+1. download xgboost whl file from here (make sure to match your python version and system architecture, e.g. "xgboost-0.6-cp35-cp35m-win_amd64.whl" or "xgboost-0.72-cp37-cp37m-win_amd64.whl" for python 3.5 on 64-bit machine)
 open command prompt
-cd to your Downloads folder (or wherever you saved the whl file)
+
+2. cd to your Downloads folder (or wherever you saved the whl file)
 pip install xgboost-0.6-cp35-cp35m-win_amd64.whl (or whatever your whl file is named)
 If you find it won't install because of a missing dependency, download and install the dependency first and retry.
 
-If it complains about access permissions, try opening your command prompt as Administrator and retry.
+3. If it complains about access permissions, try opening your command prompt as Administrator and retry.
 
-This gives you xgboost and the scikit-learn wrapper, and saves you from having to go through the pain of compiling it yourself. :)
+4. If you get the error xgboost-0.72-cp37-cp37m-win_amd64.whl is not a supported wheel on this platform, download an earlier version and retry.
+
+4. This gives you xgboost and the scikit-learn wrapper, and saves you from having to go through the pain of compiling it yourself. :)
 
 reference: 
 https://stackoverflow.com/questions/33749735/how-to-install-xgboost-package-in-python-windows-platform/35119904#35119904
