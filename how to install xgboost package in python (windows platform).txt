@@ -11,7 +11,7 @@ If you find it won't install because of a missing dependency, download and insta
 
 4. If you get the error xgboost-0.72-cp37-cp37m-win_amd64.whl is not a supported wheel on this platform, download an earlier version and retry.
 
-4. This gives you xgboost and the scikit-learn wrapper, and saves you from having to go through the pain of compiling it yourself. :)
+This gives you xgboost and the scikit-learn wrapper, and saves you from having to go through the pain of compiling it yourself. :)
 
 reference: 
 https://stackoverflow.com/questions/33749735/how-to-install-xgboost-package-in-python-windows-platform/35119904#35119904
